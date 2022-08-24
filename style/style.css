@@ -89,8 +89,8 @@ div ul li {
   transform: translate(-50%, -50%);
   color: white;
 }
-.text-center {
-  display: block;
+.aboutMe {
+  display: flex;
   text-align: left;
   color: antiquewhite;
   margin: 1% 25%;
@@ -109,6 +109,7 @@ div ul li {
   margin: 10px;
   border: 3px solid black;
   background-color: #dfdfdf;
+  border-radius: 15%;
 }
 .flex-img {
   display: flex;
@@ -117,6 +118,7 @@ div ul li {
   width: 100%;
   height: 240px;
   opacity: 0.5;
+  border-radius: 15%;
 }
 footer {
   font-style: oblique;
@@ -130,20 +132,21 @@ footer {
 
 .flex-img:hover {
   cursor: pointer;
-  border-radius: 10px solid black;
   display: block;
   opacity: 1;
   background: rgba(0, 0, 0, 0.5);
 }
 .nav-link:hover {
-  color: blue;
+  color: black;
+  background-color: red;
+  border-radius: 30%;
 }
 .footer-item {
   text-decoration: none;
   color: whitesmoke;
 }
-.footer-item:hover{
-  color: blue;
+.footer-item:hover {
+  color: red;
 }
 .contanier {
   display: flex;
@@ -151,18 +154,18 @@ footer {
   width: 100vw;
 }
 div flex-img {
-  display: block;
+  display: flex;
   height: 100%;
   width: 100%;
   opacity: 0.5;
   background: rgba(0, 0, 0, 0.5);
 }
 #myWork {
-  display: block;
+  display: flex;
   font-size: 40px;
-  color: darkred;
-  justify-content: center;
-  margin-top: 20%;
+  color: purple;
+  text-align: center;
+  margin-top: 5%;
 }
 .vl {
   border-left: 6px solid white;
@@ -170,9 +173,16 @@ div flex-img {
   justify-content: center;
 }
 .hl {
-  border-bottom:3px solid white ;
+  border-bottom: 3px solid white;
   width: 200px;
   justify-content: center;
+  margin: 1%;
+}
+.hl2 {
+  border-bottom: 3px solid white;
+  width: 630px;
+  justify-content: center;
+  margin: 1%;
 }
 .Intro {
   display: flex;
@@ -196,7 +206,7 @@ ul {
 .item-info {
   justify-content: center;
 }
-.intro{
-    display: flex;
-    justify-content: flex-start;
+.intro {
+  display: flex;
+  justify-content: flex-start;
 }
